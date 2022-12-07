@@ -2,6 +2,8 @@ n1 = int(input("Dame el primer numero \n"))
 n2 = int(input("Dame el segundo numero \n"))
 
 if (n1 < n2):
-    print("El numero mas grande es n2:",n2)
+    print("El primer numero es mas grande")
+elif (n1 > n2):
+    print("El segundo numero es mas grande")
 else:
-    print("El segundo mas grande es: n1",n1)
+    print("Ambos numero son iguales")
