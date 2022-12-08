@@ -1,9 +1,33 @@
-n1 = int(input("Dame el primer numero \n"))
+"""n1 = int(input("Dame el primer numero \n"))
 n2 = int(input("Dame el segundo numero \n"))
 
-if (n1 < n2):
+if (n1 > n2):
     print("El primer numero es mas grande")
-elif (n1 > n2):
+elif (n1 < n2):
     print("El segundo numero es mas grande")
 else:
     print("Ambos numero son iguales")
+"""
+mis_frutas = ["Manzana","Platano","Pera"]
+print(mis_frutas)
+mis_frutas.append("Naranja")
+print(mis_frutas)
+
+palabra = 'El castillo vagabundo'
+print(palabra[0:2])
+print(palabra[3:11])
+print(palabra[12:21])
+
+mis_numeros = [1,4,5,8,14,7,9,10,19,14]
+mis_numeros.sort()
+print(mis_numeros)
+
+mis_numeros.sort(reverse=True)
+print(mis_numeros)
+
+
+print(mis_numeros.count(14))
+
+print(sum(mis_numeros))
+
+print(sum(mis_numeros)/len(mis_numeros))
