@@ -25,7 +25,6 @@ print(mis_numeros)
 mis_numeros.sort(reverse=True)
 print(mis_numeros)
 
-
 print(mis_numeros.count(14))
 
 print(sum(mis_numeros))
